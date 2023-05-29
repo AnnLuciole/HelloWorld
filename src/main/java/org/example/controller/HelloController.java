@@ -12,6 +12,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String printHello() {
-        return "hello";
+        return "hello, Anna";
     }
 }
